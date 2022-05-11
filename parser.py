@@ -20,7 +20,6 @@ for row in ttt.rows:
 
 
 for files in all_files:
-    print(files)
     doc = docx.Document(files)
     tables = doc.tables
     count = 0
